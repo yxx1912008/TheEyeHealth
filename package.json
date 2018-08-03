@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "cssnano": "^4.0.5",
+    "mint-ui": "^2.2.13",
     "postcss-aspect-ratio-mini": "^0.0.2",
     "postcss-cssnext": "^3.1.0",
     "postcss-px-to-viewport": "^0.0.3",

@@ -35,5 +35,7 @@ module.exports = {
     'spaced-comment': 'off',
     'no-tabs': 'off',
     'eol-last': 'off',
+    'padded-blocks': 'off',
+    'Fvalid-v-for': 'off'
   }
 }

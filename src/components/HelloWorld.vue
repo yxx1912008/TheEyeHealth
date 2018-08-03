@@ -2,6 +2,7 @@
   <div class="hello">
     <Header :rightMethod="getMsg" rightTitle="保存"/>
     <h1>{{ msg }}</h1>
+    <Footer/>
   </div>
 </template>
 
