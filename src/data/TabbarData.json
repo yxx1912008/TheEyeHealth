@@ -1,0 +1,17 @@
+[
+  {
+    "id": "eyeTest",
+    "name": "视力测试",
+    "push": "/user"
+  },
+  {
+    "id": "eyeHealth",
+    "name": "视力保健",
+    "push": "/user"
+  },
+  {
+    "id": "user",
+    "name": "个人中心",
+    "push": "/user"
+  }
+]
