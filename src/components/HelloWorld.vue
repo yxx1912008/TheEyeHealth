@@ -1,30 +1,30 @@
 <template>
-	<div class="hello">
-		<!--    <Header :rightMethod="getMsg" rightTitle="保存"/>-->
-		<h1>{{ msg }}</h1>
-	</div>
+  <div class="hello">
+    <Header :rightMethod="getMsg" rightTitle="保存"/>
+    <h1>{{ msg }}</h1>
+  </div>
 </template>
 
 <script>
-	export default {
+  export default {
 
-		data() {
-			return {
-				msg: '我是模板消息'
-			}
-		},
-		methods: {
-			getMsg: function() {
-				console.log(this.msg)
-			}
-		}
+    data() {
+      return {
+        msg: '我是模板消息'
+      }
+    },
+    methods: {
+      getMsg: function () {
+        console.log(this.msg)
+      }
+    }
 
-	}
+  }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	h1 {
-		font-weight: normal;
-	}
+  h1 {
+    font-weight: normal;
+  }
 </style>
