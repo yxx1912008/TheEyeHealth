@@ -9,3 +9,9 @@
 cnpm i postcss-aspect-ratio-mini postcss-px-to-viewport postcss-write-svg postcss-cssnext postcss-viewport-units cssnano --S 
 cnpm i cssnano-preset-advanced --save-dev
 ```
+
+	2.还需要安装 vuex插件
+	
+```
+cnpm i vuex --save
+```
