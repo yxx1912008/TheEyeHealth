@@ -1,7 +1,7 @@
 <template>
   <mt-tabbar v-model="selected">
-    <mt-tab-item @click.native="choseTab(item.id,item.push)" v-for="item in  tabList" :key="item" :id="item.id">
-      <img slot="icon" src="">
+    <mt-tab-item @click.native="choseTab(item.id,item.push)" v-for="item in  tabList" :key="item.id" :id="item.id">
+      <icon slot="icon" :name="item.iconsName"></icon>
       {{item.name}}
     </mt-tab-item>
   </mt-tabbar>
@@ -11,6 +11,7 @@
   import tabListData from '../../data/TabbarData'
 
   export default {
+    props: ['index'],
     data() {
       return {
         selected: '',
@@ -20,13 +21,16 @@
     methods: {
       choseTab: function (tabId, toPush) {
         console.log(`您选择的tab是:${tabId}`)
-        this.$router.push('***')
+        this.$router.push(toPush)
       }
-
     },
     mounted() {
       this.tabList = tabListData
-      this.selected = this.tabList[0].id
+      if (this.index !== undefined) {
+        this.selected = this.index
+      } else {
+        this.selected = this.tabList[0].id
+      }
     }
   }
 </script>
