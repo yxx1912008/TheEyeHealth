@@ -1,16 +1,19 @@
 [
   {
     "id": "eyeTest",
+    "iconsName": "tabbar/eye_icon",
     "name": "视力测试",
     "push": "/user"
   },
   {
     "id": "eyeHealth",
+    "iconsName": "tabbar/eye_health",
     "name": "视力保健",
     "push": "/user"
   },
   {
     "id": "user",
+    "iconsName": "tabbar/eye_my",
     "name": "个人中心",
     "push": "/user"
   }

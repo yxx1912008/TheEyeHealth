@@ -6,6 +6,11 @@ import router from './router'
 import store from './store'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import Icon from 'vue-svg-icon/Icon'
+
+
+//引入图标库 使用 svg图标
+Vue.component('icon', Icon)
 
 // 通过components下的index.js文件导入组件
 import components from './components/index'
