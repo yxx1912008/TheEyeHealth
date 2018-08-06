@@ -5,8 +5,10 @@
 // 1.公共组件
 import Header from './common/Header'
 import Footer from './common/Footer'
+import PageError from './common/PageError'
 
 export default {
-	Header,
-	Footer
+  Header,
+  Footer,
+  PageError
 }
