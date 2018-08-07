@@ -2,7 +2,7 @@
   <!-- eyetest按钮区域-->
   <div class="container">
     <ul>
-      <li v-for="item in bottonList " @click="chooseTest(item.path)">
+      <li v-for="(item,index) in bottonList " @click="chooseTest(item.path)" :key="index">
         <span class="botton-title">{{item.name}}</span>
         <icon class="botton-style" slot="icon" :name="item.iconPath"/>
       </li>
