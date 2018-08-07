@@ -2,7 +2,7 @@
   <!-- eyetest按钮区域-->
   <div class="container">
     <ul>
-      <li v-for="(item,index) in bottonList " @click="chooseTest(item.path)" :key="index">
+      <li v-for="(item,index) in bottonList " @click="submit(item.path)" :key="index">
         <span class="botton-title">{{item.name}}</span>
         <icon class="botton-style" slot="icon" :name="item.iconPath"/>
       </li>
@@ -14,6 +14,7 @@
   import BottonData from '../../data/EyeTest/MainData/MainData'
 
   export default {
+    props: ['chooseTest'],
     data() {
       return {
         bottonList: BottonData || []
@@ -21,8 +22,8 @@
     },
     methods: {
       //选择测试项目
-      chooseTest: function (path) {
-        console.log(path)
+      submit: function (path) {
+        this.chooseTest(path)
       }
     }
   }

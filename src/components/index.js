@@ -11,6 +11,7 @@ import PageError from './common/PageError'
 //视力测试组件
 import EyeTestBanner from './eyetest/EyeTestBanner'
 import EyeTestButton from './eyetest/EyeTestButton'
+import AstiTestDetail from './eyetest/AstiTestDetail'
 
 export default {
   Header,
@@ -19,7 +20,8 @@ export default {
 
   //视力测试相关
   EyeTestBanner,
-  EyeTestButton
+  EyeTestButton,
+  AstiTestDetail
 
 
 }

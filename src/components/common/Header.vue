@@ -1,7 +1,7 @@
 <template>
   <!--顶部导航栏-->
   <mt-header class="header-nav" :title="title">
-    <router-link v-if='isShow' to="-1" slot="left">
+    <router-link v-if='isShow' to="../" slot="left">
       <mt-button icon="back">{{backTitle}}</mt-button>
     </router-link>
     <mt-button @click.native="rightMethod" slot="right">{{rightOfTitle}}</mt-button>

@@ -2,7 +2,7 @@
   {
     "name": "散光测试",
     "iconPath": "eyetest/AstiTest",
-    "path": "404"
+    "path": "eyeTest/astiTest"
   },
   {
     "name": "色盲色弱",
