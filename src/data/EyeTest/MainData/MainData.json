@@ -1,0 +1,22 @@
+[
+  {
+    "name": "散光测试",
+    "iconPath": "eyetest/AstiTest",
+    "path": "404"
+  },
+  {
+    "name": "色盲色弱",
+    "iconPath": "eyetest/ColorTest",
+    "path": "404"
+  },
+  {
+    "name": "测主导眼",
+    "iconPath": "eyetest/MainEyeTest",
+    "path": "404"
+  },
+  {
+    "name": "黄斑变性",
+    "iconPath": "eyetest/YellowTest",
+    "path": "404"
+  }
+]
