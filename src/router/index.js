@@ -3,7 +3,6 @@
  */
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import Error from '@/view/other/Error'
 import EyeTest from '@/view/eyetest'
 
@@ -12,9 +11,9 @@ Vue.use(Router)
 export default new Router({
   routes: [{
     path: '/',
-    name: 'HelloWorld',
+    name: '首页',
     meta: {
-      title: '欢迎界面'
+      title: '首页'
     },
     component: EyeTest
   },
@@ -23,9 +22,7 @@ export default new Router({
       meta: {
         title: '视力测试'
       },
-      component: {
-        EyeTest
-      }
+      component: EyeTest
     },
     {
       path: 'user',
