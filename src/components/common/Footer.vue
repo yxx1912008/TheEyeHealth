@@ -1,10 +1,12 @@
 <template>
-  <mt-tabbar v-model="selected">
-    <mt-tab-item @click.native="choseTab(item.id,item.push)" v-for="item in  tabList" :key="item.id" :id="item.id">
-      <icon slot="icon" :name="item.iconsName"></icon>
-      {{item.name}}
-    </mt-tab-item>
-  </mt-tabbar>
+  <div class="container">
+    <mt-tabbar fixed class="footer-main" v-model="selected">
+      <mt-tab-item @click.native="choseTab(item.id,item.push)" v-for="item in  tabList" :key="item.id" :id="item.id">
+        <icon slot="icon" :name="item.iconsName"></icon>
+        {{item.name}}
+      </mt-tab-item>
+    </mt-tabbar>
+  </div>
 </template>
 
 <script>
@@ -36,5 +38,7 @@
 </script>
 
 <style scoped>
-
+  .container {
+    height: 8.99vh;
+  }
 </style>

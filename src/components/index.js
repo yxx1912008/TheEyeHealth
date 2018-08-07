@@ -7,8 +7,19 @@ import Header from './common/Header'
 import Footer from './common/Footer'
 import PageError from './common/PageError'
 
+
+//视力测试组件
+import EyeTestBanner from './eyetest/EyeTestBanner'
+import EyeTestButton from './eyetest/EyeTestButton'
+
 export default {
   Header,
   Footer,
-  PageError
+  PageError,
+
+  //视力测试相关
+  EyeTestBanner,
+  EyeTestButton
+
+
 }
