@@ -12,6 +12,10 @@ import PageError from './common/PageError'
 import EyeTestBanner from './eyetest/EyeTestBanner'
 import EyeTestButton from './eyetest/EyeTestButton'
 import AstiTestDetail from './eyetest/AstiTestDetail'
+import ColorTestDetail from './eyetest/ColorTestDetail'
+import MainEyeTestDetail from './eyetest/MainEyeTestDetail'
+import YellowTestDetail from './eyetest/YellowTestDetail'
+import EyeHealthDetail from './eyehealth/EyeHealthDetail'
 
 export default {
   Header,
@@ -21,7 +25,11 @@ export default {
   //视力测试相关
   EyeTestBanner,
   EyeTestButton,
-  AstiTestDetail
+  AstiTestDetail,
+  ColorTestDetail,
+  MainEyeTestDetail,
+  YellowTestDetail,
+  EyeHealthDetail
 
 
 }
